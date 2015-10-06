@@ -1,0 +1,83 @@
+body {
+	background-image: url(../image/produce.png);
+  	position: absolute;
+  	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.container {
+  	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	background-color: #606060;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	border-radius: 24px;
+	padding: 5rem;
+	padding-right: 7rem;
+	padding-left: 7rem;
+	-webkit-box-shadow: inset 2px -1px 110px -9px rgba(3,2,3,1);
+	-moz-box-shadow: inset 2px -1px 110px -9px rgba(3,2,3,1);
+	box-shadow: inset 2px -1px 90px -9px rgba(3,2,3,1);
+}
+form {
+	font-family: helvetica;
+	color: white;
+	position: relative;
+	text-align: center;
+}
+h1 {
+	font-family: helvetica;
+	color: white;
+	font-weight: 100;
+	position: relative;
+	bottom: 30px;
+	white-space: nowrap;
+	text-align: center;
+}
+.rows {
+	padding: 0;
+	margin: 0;
+}
+.rows ul.list { 
+	list-style:none; 
+	padding: 0;
+	margin:0;
+}
+.rows ul.list li { 
+	width:400px; 
+	height:90px; 
+	margin:0 0px 0px 0; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	border-radius: 10px; 
+	-khtml-border-radius: 10px; 
+	padding:10px; 
+	position:relative; 
+	list-style-type: none;
+}
+.item1 {
+	background-color: #6bcb97;
+	-webkit-box-shadow: inset -1px -1px 158px -16px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset -1px -1px 158px -16px rgba(0,0,0,0.75);
+	box-shadow: inset -1px -1px 158px -16px rgba(0,0,0,0.75);
+}
+.item2 {
+	background-color: #006699;
+	-webkit-box-shadow: inset -1px -1px 158px -16px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset -1px -1px 158px -16px rgba(0,0,0,0.75);
+	box-shadow: inset -1px -1px 158px -16px rgba(0,0,0,0.75);
+}
+.item3 {
+	background-color: #660033;
+	-webkit-box-shadow: inset -1px -1px 158px -16px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset -1px -1px 158px -16px rgba(0,0,0,0.75);
+	box-shadow: inset -1px -1px 158px -16px rgba(0,0,0,0.75);
+}
+.item4 {
+	background-color: #FFFF66;
+	-webkit-box-shadow: inset -1px -1px 158px -16px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset -1px -1px 158px -16px rgba(0,0,0,0.75);
+	box-shadow: inset -1px -1px 158px -16px rgba(0,0,0,0.75);
+}
+
