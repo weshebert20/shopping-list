@@ -4,28 +4,19 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/main.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </head>
 <body>
 	<div class="container">
 		<h1>Shopping List</h1>
-		<form>  Groceries:<br>
-  		<input type="text" name="firstname"></br>
-  		</form>
-		<div class="rows">
-			<ul class="list">
-				<li class="item1">
-					<div class="item-box"></div>
-				</li>
-				<li class="item2">
-					<div class="item-box"></div>
-				</li>
-				<li class="item3">
-					<div class="item-box"></div>
-				</li>
-				<li class="item4">
-					<div class="item-box"></div>
-				</li>
-			</ul>
+		<form class="info1">Groceries:<br></form>
+  		<input type="text" id="addtolist"/><button id="add">+</button></br>
+  			<ul id="bye">
+  				<li id="todolist" class="delete"></li>
+  			</ul>
+  		<div class="clear">
+  		<button id="clear-all">Clear All</button>
 		</div>
 	</div>
 </body>
